@@ -1,0 +1,56 @@
+# EEIK Project Manifest — Aether IEL (Intelligence Engineering Lifecycle)
+# Canonical manifest (schema_version 1.0) — validates against eeik/schemas/manifest.schema.json
+# (`python -m eeik validate project-manifest.yaml`).
+#
+# Aether IEL is the ecosystem's *methodology* layer — a 12-phase framework (structure, standards,
+# templates, governance controls) with no runtime code. `technology.backend.language: mixed` reflects
+# the absence of a single runtime, and `ai.enabled: false` because IEL governs AI systems but is not one.
+# Adopted at the manifest level; engine-driven activate/lock/verify is an eeik follow-up (plan slice B).
+
+schema_version: "1.0"
+
+project:
+  name: aether-iel
+  description: >
+    Intelligence Engineering Lifecycle — the methodological backbone of the Aether ecosystem: a
+    repeatable 12-phase framework for engineering, operating, governing, and evolving persistent
+    intelligence systems. Structure, standards, templates, and governance controls; no runtime code.
+  owner: suplab
+  domain: generic
+  project_type: enterprise-platform
+
+technology:
+  backend:
+    language: mixed
+
+architecture:
+  style: agentic
+  patterns: []
+  api_style: rest
+
+cloud:
+  provider: local-first
+  infra_as_code: none
+  multi_account: false
+  finops: false
+
+ai:
+  enabled: false
+  pattern: none
+  governance_required: false
+
+governance:
+  profile: enterprise
+  reviews_required:
+    - architecture-review
+    - ai-governance-review
+  compliance_frameworks:
+    - gdpr
+  adr_required: true
+  coverage_threshold: 80
+
+delivery:
+  model: single-team
+  methodology: incremental
+  sprint_length_weeks: 2
+  cicd_platform: github-actions
