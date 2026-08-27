@@ -43,12 +43,12 @@ aether-iel/
 │   ├── overview.md                   ← Full lifecycle summary
 │   ├── 01-strategy.md                ← Strategy Engineering
 │   ├── 02-cognitive-architecture.md  ← Cognitive Architecture
-│   ├── 03-knowledge.md               ← Knowledge Engineering
-│   ├── 04-memory.md                  ← Memory Engineering
-│   ├── 05-agent.md                   ← Agent Engineering
+│   ├── 03-knowledge-engineering.md               ← Knowledge Engineering
+│   ├── 04-memory-engineering.md                  ← Memory Engineering
+│   ├── 05-agent-engineering.md                   ← Agent Engineering
 │   ├── 06-implementation.md          ← Implementation Engineering
 │   ├── 07-evaluation.md              ← Evaluation Engineering
-│   ├── 08-operations.md              ← Operational Engineering
+│   ├── 08-deployment.md              ← Operational Engineering
 │   ├── 09-governance.md              ← Governance Engineering
 │   ├── 10-learning.md                ← Learning Engineering
 │   ├── 11-evolution.md               ← Evolution Engineering

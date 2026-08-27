@@ -60,12 +60,12 @@ aether-iel/
 │   ├── overview.md                   ← Full lifecycle summary
 │   ├── 01-strategy.md
 │   ├── 02-cognitive-architecture.md
-│   ├── 03-knowledge.md
-│   ├── 04-memory.md
-│   ├── 05-agent.md
+│   ├── 03-knowledge-engineering.md
+│   ├── 04-memory-engineering.md
+│   ├── 05-agent-engineering.md
 │   ├── 06-implementation.md
 │   ├── 07-evaluation.md
-│   ├── 08-operations.md
+│   ├── 08-deployment.md
 │   ├── 09-governance.md
 │   ├── 10-learning.md
 │   ├── 11-evolution.md
